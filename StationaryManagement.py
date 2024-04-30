@@ -35,7 +35,7 @@ def generateReceipt(customerName, receipt):
     print("Products Purchased:")
     total_cost = 0
     for product_name, quantity in receipt:
-        cost = quantity  # Assuming each item costs 1 unit for simplicity
+        cost = quantity  
         print(f"{product_name.capitalize()}: {quantity} x {cost} = {quantity * cost}")
         total_cost += quantity * cost
     print("------------------------------------")
