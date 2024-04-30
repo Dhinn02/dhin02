@@ -1,14 +1,14 @@
-# Define initial stock quantities for items in the shop
+
 stock = {
     "pen": 50,
-    "pencil": 30,
-    "eraser": 20,
-    "sharpener": 30,
+    "pencil": 50,
+    "eraser": 50,
+    "sharpener": 50,
     "a4": 100,
     "note": 100,
     "ruler": 50,
-    "tape": 30,
-    "exampad": 30
+    "tape": 50,
+    "exampad": 50
 }
 
 def displayShopItems():
